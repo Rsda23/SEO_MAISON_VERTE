@@ -4,25 +4,28 @@
 }
 ul 
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #fff;
 }
-  
 li 
 {
     float: right;
 }
-  
 li a 
 {
     display: block;
     padding: 15px 18px;
+    text-decoration: none;
+    color: #102310;
     
 }
-  
 .green_house 
 {
     float: left;
@@ -33,7 +36,8 @@ li a
     background-color: #fff;
     padding: 0;
 }
-.banniere_1{
+.banniere_1
+{
     width: 100%;
     height: 400px;
 }
@@ -46,6 +50,7 @@ li a
     font-size: 1.5em;
     margin-bottom: 15px;
     color: #388E3C;
+    scroll-margin-top: 60px;
 }
 .services_section 
 {
@@ -55,9 +60,17 @@ li a
     gap: 20px;
     padding: 50px;
     background-color: #f8f8f8;
-    
 }
-.conteneur_2 {
+.services_section_titre
+{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+.conteneur_2 
+{
     flex: 1;
     min-width: 300px;
     background: white;
@@ -72,7 +85,8 @@ h2
     margin-bottom: 15px;
     color: #388E3C;
 }
-.realisations_section {
+.realisations_section 
+{
     display: grid;
     gap: 20px;
     padding: 20px;
@@ -80,14 +94,107 @@ h2
     max-width: 1000px;
     margin: 0 auto;
 }
-.realisation img {
+.realisation img 
+{
     width: 100%;
     height: 199px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 }
+h4
+{
+    font-size: 18px;
+    color: #388E3C;
+    font-weight: bold;
+    text-align: center;
+}
+.realisation-text
+{
+    text-align: justify;
+    color: #102310;
+}
+.conteneur_3{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding-bottom: 50px;
+}
+.blog 
+{
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #a5d4a1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.blog p {
+    font-size: 14px;
+    color: #333;
+}
 
-
-
-
-  
+.blog a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2a7c3f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.blog_text
+{
+    padding-top: 10px;
+}
+.titre_2
+{
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5em;
+    color: #388E3C;
+    scroll-margin-top: 80px;
+}
+.contact_section
+{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    max-width: 600px;
+}
+form div 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+form div input, form div select 
+{
+    height: 50px;
+    padding-left: 10px;
+}
+form div textarea 
+{
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+}
+form button 
+{
+    width: 450px;
+    font-size: 28px;
+    background: #388E3C;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #fff;
+    margin: 20px;
+}

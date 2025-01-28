@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    background-color: 102310;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: 102310;
+    padding: 15px 18px;
+    
+  }
+  
+  .green_house {
+    float: left;
+    font-size: 20px;
+  }
+  .conteneur_1{
+    background-color: #55a350;
+    padding: 100px;
+  }

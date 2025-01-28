@@ -1,31 +1,93 @@
-* {
+* 
+{
     margin: 0;
-    background-color: 102310;
 }
-ul {
+ul 
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #fff;
-  }
+}
   
-  li {
+li 
+{
     float: right;
-  }
+}
   
-  li a {
+li a 
+{
     display: block;
-    color: 102310;
     padding: 15px 18px;
     
-  }
+}
   
-  .green_house {
+.green_house 
+{
     float: left;
     font-size: 20px;
-  }
-  .conteneur_1{
-    background-color: #55a350;
-    padding: 100px;
-  }
+}
+.conteneur_1
+{
+    background-color: #fff;
+    padding: 0;
+}
+.banniere_1{
+    width: 100%;
+    height: 400px;
+}
+.titre
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #388E3C;
+}
+.services_section 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f8f8f8;
+    
+}
+.conteneur_2 {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2 
+{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #388E3C;
+}
+.realisations_section {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.realisation img {
+    width: 100%;
+    height: 199px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
+
+
+
+
+  

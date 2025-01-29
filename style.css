@@ -30,6 +30,10 @@ li a
 {
     float: left;
     font-size: 20px;
+    display: block;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: #102310;
 }
 .accueil_text {
     display: block; 
@@ -60,7 +64,7 @@ li a
     margin: 10px;
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #388E3C;
+    color: #215D34;
     scroll-margin-top: 60px;
 }
 .services_section 
@@ -90,11 +94,15 @@ li a
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-h2 
+h2, h6
 {
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #388E3C;
+    color: #215D34;
+}
+h5
+{
+    font-size: 19px;
 }
 .realisations_section 
 {
@@ -112,12 +120,13 @@ h2
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 }
-h3
+h4
 {
     font-size: 18px;
-    color: #388E3C;
+    color: #215D34;
     font-weight: bold;
     text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .realisation-text
 {
@@ -150,7 +159,7 @@ h3
 .blog a {
     display: inline-block;
     margin-top: 20px;
-    color: #2a7c3f;
+    color: #114220;
     font-weight: bold;
     text-decoration: none;
 }
@@ -164,7 +173,7 @@ h3
     text-align: center;
     margin: 10px;
     font-size: 1.5em;
-    color: #388E3C;
+    color: #215D34;
     scroll-margin-top: 80px;
 }
 .contact_section
@@ -203,7 +212,7 @@ form button
 {
     width: 450px;
     font-size: 28px;
-    background: #388E3C;
+    background: #215D34;
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     color: #fff;

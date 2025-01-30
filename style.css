@@ -55,7 +55,7 @@ li a
 {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    display: block;
 }
 .titre
 {
@@ -225,6 +225,12 @@ form button
     background: #215D34;
     border-radius: 5px;
     color: #fff;
+}
+.image_section
+{
+    max-width: 490px;
+    max-height: 300px;
+    
 }
 @media screen and (max-width: 700px) {
     .ul, li, li a, .green_house
